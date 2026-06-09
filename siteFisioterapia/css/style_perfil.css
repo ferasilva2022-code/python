@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+body {
+  background-color: rgb(216, 242, 234);
+}
+
+.login-box{
+    align-items: center;
+}
+
+
+section ul li{
+    list-style-type: none ;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+section ul li a{
+    text-decoration: none;
+    color: rgb(7, 78, 60);
+}

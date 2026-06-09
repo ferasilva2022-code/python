@@ -1,0 +1,40 @@
+<svg width="680" height="200" viewBox="0 0 680 200" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Fisio em Foco — logotipo</title>
+  <desc>Logo da Fisio em Foco com ícone de mira e figura humana em verde-teal, seguido do nome da marca</desc>
+
+  <style>
+    .brand-main { font-family: Georgia, 'Times New Roman', serif; font-size: 52px; font-weight: 700; fill: #074E3C; }
+    .brand-accent { font-family: Georgia, 'Times New Roman', serif; font-size: 52px; font-weight: 700; fill: #1DAF82; }
+    .brand-tag { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 400; fill: #2A9B72; letter-spacing: 3.5px; }
+  </style>
+
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="68" fill="none" stroke="#1DAF82" stroke-width="4"/>
+  <!-- Middle ring -->
+  <circle cx="100" cy="100" r="46" fill="none" stroke="#1DAF82" stroke-width="2.5"/>
+  <!-- Center filled dot -->
+  <circle cx="100" cy="100" r="14" fill="#1DAF82"/>
+
+  <!-- Cross lines -->
+  <line x1="100" y1="26" x2="100" y2="48" stroke="#074E3C" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="100" y1="152" x2="100" y2="174" stroke="#074E3C" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="26" y1="100" x2="48" y2="100" stroke="#074E3C" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="152" y1="100" x2="174" y2="100" stroke="#074E3C" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Human figure -->
+  <circle cx="100" cy="92" r="5.5" fill="#D8F2EA"/>
+  <line x1="100" y1="97.5" x2="100" y2="110" stroke="#D8F2EA" stroke-width="3" stroke-linecap="round"/>
+  <line x1="92" y1="102" x2="108" y2="102" stroke="#D8F2EA" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="100" y1="110" x2="95" y2="118" stroke="#D8F2EA" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="100" y1="110" x2="105" y2="118" stroke="#D8F2EA" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Brand name -->
+  <text x="200" y="108" class="brand-main">Fisio</text>
+  <text x="327" y="108" class="brand-accent"> em Foco</text>
+
+  <!-- Divider -->
+  <line x1="200" y1="122" x2="616" y2="122" stroke="#4DC99A" stroke-width="1.2"/>
+
+  <!-- Tagline -->
+  <text x="201" y="145" class="brand-tag">FISIOTERAPIA &amp; SAÚDE</text>
+</svg>

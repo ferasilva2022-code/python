@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+}
+body {
+  background-color: rgb(216, 242, 234);
+}
+nav{
+  position: absolute;
+  background-color: rgb(15, 130, 100);
+  height: 10vh;
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  
+}
+
+nav ul li{
+  list-style: none;
+  padding: 40px;
+  gap: 40px;
+  margin-top: 0px;
+}
+nav ul li:last-child {
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+nav ul li a:hover {
+  cursor: pointer;
+}
+nav ul li a img {
+  display: block;
+ margin: -40px;
+ gap: 20px;
+ margin-right: 10px;
+}
+article{
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+}
+article p{
+    max-width: 650px;    
+  margin: 0 auto;      
+  text-align: justify; 
+  line-height: 1.6;    
+  margin-bottom: 20px;
+}
+article img{
+    width: 150px;      
+  height: 150px;      
+  border-radius: 50%; 
+  object-fit: cover;
+}
+article p img{
+    padding: 100px;
+    gap: 100px;
+}
