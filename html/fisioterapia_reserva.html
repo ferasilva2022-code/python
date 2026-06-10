@@ -7,22 +7,31 @@
     <link rel ='stylesheet' href="../css/style_reserva.css"> 
 </head>
 <body>
-    <header>
+   <header>
   <nav>
     <ul>
-      <li><a class = 'link-imagem' href="#"><img src="../imagens/estrutura/fisio-em-foco-logo-final.svg" alt="PERFIL" width="500px" height="100px"></a></li>
-      <li><a class= 'link-texto' href="fisioterapia_estrutura.html">Home</a></li>
-      <li><a class= 'link-texto' href="fisioterapia_portfolio.html">Quem sou</a></li>
-      <li><a class= 'link-texto' href="../html/fisioterapia_servicos.html">Serviços</a></li>
-      <li><a class= 'link-texto' href="fisioterapia_reserva.html">Agende seu horário</a></li>
-      <li><a class= 'link-texto'href="fisioterapia_contato.html">Contato</a></li>
-      <li><a class = 'link-imagem' href="fisioterapia_perfil.html"><img src="../imagens/estrutura/perfil-com-fundo.png" alt="PERFIL" width="90px" height="90px"></a></li>
-     
+      
+    <a href="fisioterapia_perfil.html">
+      <img src="../imagens/estrutura/account.png" alt="Perfil" width="64">
+    </a>
+      <li><a href="fisioterapia_estrutura.html">Home</a></li>
+      <li><a href="fisioterapia_portfolio.html">Sobre</a></li>
+      <li><a href="fisioterapia_servicos.html">Serviços</a></li>
+      <li><a href="fisioterapia_reserva.html">Reserve</a></li>
+      <li><a href="fisioterapia_contato.html">Contato</a></li>
     </ul>
+    
+    <div class="img-nav">
+      <a href="#"><img src="../imagens/estrutura/fisio-em-foco-logo-final.svg" alt="PERFIL" width="300px"></a>
+      </div>
+  
   </nav>
-  </header>
-    <!-- <div class = 'reserva'>
-    <form>
+</header>
+
+<section id="main-sec">
+
+    <div class = 'reserva'>
+    <form> 
     <label for="login">CPF</label>
     <input type="text" id="login">
     <br><br>
@@ -31,40 +40,73 @@
     <br><br>
     <label for="time">Escolha um horário</label>
     <br><br>
-    <input type="radio" id="hora-1330" name="horario" value="13:30">
-    <label for="hora-1330">13:30</label>
-    <br><br>
-    <input type="radio" id="hora-1400" name="horario" value="14:00">
-    <label for="hora-1400">14:00</label>
-    <br><br>
-    <input type="radio" id="hora-1430" name="horario" value="14:30">
-    <label for="hora-1430">14:30</label>
-    <br><br>
-    <input type="radio" id="hora-1330" name="horario" value="15:00">
-    <label for="hora-1330">15:00</label>
-    <br><br>
-    <input type="radio" id="hora-1400" name="horario" value="15:30">
-    <label for="hora-1400">15:30</label>
-    <br><br>
-    <input type="radio" id="hora-1430" name="horario" value="16:00">
-    <label for="hora-1430">16:00</label>
-    <br><br>
-     <label for="time">Escolha a quantidade de vezes na semana</label>
-    <br><br>
-    <input type="radio" id="1x/semana" name="semana" value="1">
-    <label for="#">1 vez na semana</label> |
-    <input type="radio" id="2x/semana" name="semana" value="2">
-    <label for="#">2 vezes na semana</label> |
-    <input type="radio" id="3x/semana" name="semana" value="3">
-    <label for="#">3 vezes na semana</label>
-    <br><br>
-    <button type="reset">Limpar</button>
-    <button type="submit">Confirmar escolhas</button>
-    </form>
-    </div>
-    <br>
-    <br>
-    <img src="../imagens/reserva/ChatGPT Image 5 de jun. de 2026, 10_01_46.png" alt="" width="px" height="px"> -->
     
+    <div class="horario">
+      <div class="hora-div">
+        <input type="radio" name="horario" value="13:30">
+        <label class="hora" for="hora-1330">13:30</label>
+      </div>
+      <br><br>
+      <div class="hora-div">
+        <input type="radio" name="horario" value="14:00">
+        <label class="hora" for="hora-1400">14:00</label>
+      </div>
+      <br><br>
+      <div class="hora-div">
+        <input type="radio" name="horario" value="14:30">
+        <label class="hora" for="hora-1430">14:30</label>
+      </div>
+      <br><br>
+      <div class="hora-div">
+        <input type="radio" name="horario" value="15:00">
+        <label class="hora" for="hora-1330">15:00</label>
+      </div>
+      <br><br>
+      <div class="hora-div">
+        <input type="radio"  name="horario" value="15:30">
+        <label class="hora" for="hora-1400">15:30</label>
+      </div>
+      <br><br>
+      <div class="hora-div">
+        <input type="radio"  name="horario" value="16:00">
+        <label class="hora" for="hora-1430">16:00</label>
+      </div>
+    </div>
+
+    <br><br>
+    
+      <label for="time">Escolha a quantidade de vezes na semana</label>
+      <br><br>
+      <div id="dias-semana">
+
+        <div class="dias">
+          <input type="radio" id="1x/semana" name="semana" value="1">
+          <label for="#">1 vez na semana</label>
+        </div>
+
+        <div class="dias">
+          <input type="radio" id="2x/semana" name="semana" value="2">
+          <label for="#">2 vezes na semana</label>
+        </div>
+
+        <div class="dias">
+          <input type="radio" id="3x/semana" name="semana" value="3">
+          <label for="#">3 vezes na semana</label>
+        </div>
+        <br><br>
+        <div id="btns-dias">
+          <button type="submit">Confirmar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+      </div>
+    </div>
+
+    <img src="../imagens/reserva/ChatGPT Image 5 de jun. de 2026, 09_17_03.png" alt="" width="500px">
+    
+</section>
+    <footer>
+    <span>© 2026 Fisio em Foco. Criado por Fernanda Alves da Silva e Nathan Eliakim Banach da Silva. Todos os direitos reservados.</span>
+</footer>
 </body>
 </html>
